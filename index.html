@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vite + TS</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black; /* Set the background color to black */
+  overflow: hidden;
+}
+.btm-div{
+  height: 100vh;
+  width: 100%;
+}
+
+  </style>
+  </head>
+  <body>
+    <canvas></canvas>
+    <div class="btm-div">
+      <p>Tangentially, as I’m just getting into this - I see the postprocessing lib uses “trianges instead of quads” and some more jargon I’m unfamiliar with.
+Any thoughts on how much more efficient it is, and if three.js will catch up? ( I would always prefer to stick to the native lib if possible )</p>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
